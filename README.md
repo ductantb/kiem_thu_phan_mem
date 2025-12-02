@@ -96,3 +96,15 @@ def calc_tax(E: float, I: float) -> tuple[float, float]:
 
     tax_amount = E * tax_rate
     return tax_rate, tax_amount
+```
+# 🧪 PHẦN KIỂM THỬ – PHÂN TÍCH & THIẾT KẾ TEST CASE
+
+Phần này mô tả cách áp dụng **kỹ thuật kiểm thử hộp trắng** cho bài toán `calc_tax(E, I)`.
+
+Bao gồm:
+- Xây dựng CFG  
+- Xác định các quyết định logic  
+- Sinh đường đi độc lập  
+- Thiết kế test case đảm bảo các mức độ bao phủ C1–C2–C3  
+- Kiểm thử biên, kiểm thử lỗi  
+- Chạy test tự động và đo coverage  
